@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="Module Name.svg"
+   id="svg6"
+   version="1.1"
+   fill="none"
+   viewBox="0.0 0.0 348.0 348.0">
+  <metadata
+     id="metadata12">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     inkscape:current-layer="svg6"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-9"
+     inkscape:window-x="2391"
+     inkscape:cy="134.40693"
+     inkscape:cx="-14.467103"
+     inkscape:zoom="1.6864903"
+     showgrid="false"
+     id="namedview8"
+     inkscape:window-height="1001"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <path
+     id="path2"
+     stroke="#000"
+     stroke-width="2"
+     d="M5.079 5.776h336.913v337.67H5.08z" />
+  <path
+     id="path4"
+     stroke="#000"
+     stroke-width="2"
+     d="M282.734 40.554c0-8.376 6.966-15.165 15.56-15.165 4.126 0 8.084 1.597 11.001 4.441 2.918 2.844 4.558 6.702 4.558 10.724 0 8.376-6.966 15.165-15.56 15.165-8.593 0-15.559-6.79-15.559-15.165z" />
+  <path
+     d="M 175.51172 250.98633 A 265.47018 265.47018 0 0 0 8.8945312 309.78711 L 8.8945312 338.57227 L 338.57227 338.57227 L 338.57227 306.96875 A 265.47018 265.47018 0 0 0 175.51172 250.98633 z "
+     style="fill:none;stroke:#000000;stroke-width:1.34045"
+     id="path837" />
+  <circle
+     r="31.42621"
+     cy="190.92905"
+     cx="45.063999"
+     id="path841"
+     style="fill:none;stroke:#000000" />
+  <circle
+     r="32.612106"
+     cy="184.99957"
+     cx="298.25253"
+     id="path843"
+     style="fill:none;stroke:#000000" />
+  <circle
+     r="29.05442"
+     cy="51.586422"
+     cx="43.28516"
+     id="path845"
+     style="fill:none;stroke:#000000" />
+  <circle
+     r="31.172588"
+     cy="120.66479"
+     cx="44.767525"
+     id="path847"
+     style="fill:none;stroke:#000000;stroke-width:0.9143" />
+  <circle
+     r="31.722685"
+     cy="111.17763"
+     cx="300.32785"
+     id="path851"
+     style="fill:none;stroke:#000000" />
+  <rect
+     y="19.567263"
+     x="83.605583"
+     height="51.586422"
+     width="183.81369"
+     id="rect853"
+     style="fill:none;stroke:#000000" />
+  <rect
+     y="19.567263"
+     x="83.605583"
+     height="51.586426"
+     width="36.762749"
+     id="rect855"
+     style="fill:#000000;stroke:#000000;fill-opacity:1" />
+  <text
+     id="text905"
+     y="170.17589"
+     x="103.76579"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:Azonix;fill:#000000;fill-opacity:1;stroke:none;-inkscape-font-specification:'Azonix, Normal';font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;"
+     xml:space="preserve"><tspan
+       y="170.17589"
+       x="103.76579"
+       id="tspan903"
+       sodipodi:role="line">NOMAI</tspan></text>
+</svg>

@@ -22,9 +22,9 @@
                 <h2>On the Subject of Nomai</h2>
                 <p class="flavour-text">A vast expanse of space and ti-</p>
 
-				<p>This module contains a large main planet which you are on, smaller planets which you may navigate to, and text in the center of it.</p>
-				<p>This module will reset every twenty-two seconds. During this time, the module may be interacted with, but afterwards, the module will reset to its initial state. This reset will also include strikes and whether the module is solved.</p>
-				<p>To permanantly solve the module, you must disable the time looping mechanism. Use the inital state of the module and the table below to determine how you must interacte with the module to do so.</p>
+				<p>This module contains a large main planet which you are on, and smaller planets which you may navigate to. You may also interact with the status light.</p>
+				<p>This module will strike every twenty-two seconds. After each strike the module will reset. This reset will include strikes earned and whether the module is solved.</p>
+				<p>To permanantly solve the module, you must disable the time looping mechanism. Use the inital state of the module and the table below to determine how you must interact with the module to do so.</p>
 
                 <table>
 					<tr>
@@ -35,14 +35,14 @@
 					</tr>
 					<tr>
 						<td><img src="img/BlueWaves.png" width="150" height="150"></td>
-						<td></td>
-						<td></td>
-						<td></td>
+						<td>An indicator shares a letter with the serial number.</td>
+						<td>Strike the same way you did the previous loop. (It will affect the next loop.)</td>
+						<td>Navigate to this planet immediately after navigating away from it.</td>
 					</tr>
 					<tr>
 						<td><img src="img/GrayCraters.png" width="150" height="150"></td>
 						<td>There are at least three unlit indicators.</td>
-						<td>Interact with the status light while on any other planet.</td>
+						<td>Interact with the sixth location.</td>
 						<td>Interact with any other planet.</td>
 					</tr>
 					<tr>
@@ -52,15 +52,13 @@
 						<td>Interact with this planet twice before any other interactions.</td>
 					</tr>
 				</table>
-
-				
             </div>
-            <div class="page-footer relative-footer">Page 1 of 3</div>
+            <div class="page-footer relative-footer">Page 1 of 2</div>
         </div>
         <div class="page page-bg-02">
             <div class="page-header">
                 <span class="page-header-doc-title">Keep Talking and Nobody Explodes Mod</span>
-                <span class="page-header-section-title">Module Name</span>
+                <span class="page-header-section-title">Nomai</span>
             </div>
             <div class="page-content">
 				<table>
@@ -74,7 +72,7 @@
 						<td><img src="img/GreenSquiggles.png" width="150" height="150"></td>
 						<td>There are at least 4 batteries.</td>
 						<td>Navigate from any other planet to this planet.</td>
-						<td>Interact with any planet after having interacted with the status light twice.</td>
+						<td>Interact with any planet immediately after having interacted with the status light twice.</td>
 					<tr>
 					<tr>
 						<td><img src="img/PurpleTriangles.png" width="150" height="150"></td>
@@ -86,89 +84,22 @@
 						<td><img src="img/RedStripes.png" width="150" height="150"></td>
 						<td>The serial number contains a vowel.</td>
 						<td>Interact with the status light while at the sixth location.</td>
-						<td></td>
+						<td>Interact with the status light while on any other planet.</td>
 					</tr>
 				</table>
 				
 				
 				
-                <h3>Example Tables</h3>
-                <table>
-                    <tr>
-                        <th>Part of table</th>
-                        <th>How to make</th>
-                    </tr>
-                    <tr>
-                        <th>Rows and Columns</th>
-                        <td>
-                            Use <code>&lt;tr&gt;&lt;/tr&gt;</code> for rows.
-                            Use <code>&lt;th&gt;&lt;/th&gt;</code> or <code>&lt;td&gt;&lt;/td&gt;</code> for columns within rows (see below).
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>Headings (left column and top row, in most cases)</th>
-                        <td>Use <code>&lt;th&gt;&lt;/th&gt;</code></td>
-                    </tr>
-                    <tr>
-                        <th>Cells</th>
-                        <td>Use <code>&lt;td&gt;&lt;/td&gt;</code></td>
-                    </tr>
-                    <tr>
-                        <th rowspan="2">Merged Cells</th>
-                        <td>Use <code>rowspan="_"</code> for merging cells vertically.</td>
-                    </tr>
-                    <tr>
-                        <td>Use <code>colspan="_"</code> for merging cells horizontally.</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">Note that merged cells created in other rows are skipped in affected rows (see HTML for above row).</td>
-                    </tr>
-                </table>
-                <p>If the table contents are not wide enough, tables are centered by default due to the <code>table</code> rule of the first <code>&lt;style&gt;</code> block (see above code).</p>
-                <table class="center">
-                    <tr>
-                        <th>Cell 1</th>
-                        <td>Cell 2</td>
-                    </tr>
-                    <tr>
-                        <th>Cell 3</th>
-                        <td>Cell 4</td>
-                    </tr>
-                </table>
-
-                <h3>Images</h3>
-                <p>Use the <code>&lt;img src="_" /&gt;</code> tag for images. Make sure to put your images into the <code class="notcode">/img/[Module Name]/</code> folder. Adjust the width with CSS, using <code>width: _%;</code> (recommended) or <code>width: _px;</code>. Example:</p>
-                <img style='width: 100%' src="img/Example Image.png" />
-
-                <h3>Making the PDF</h3>
-                <p>To make a PDF version of your manual, open the HTML file in Google Chrome and open the "Print" dialog (Usually <kbd>CTRL</kbd>+<kbd>P</kbd>) and choose "Save as PDF" as the destination.</p>
+                <h3>Notes</h3>
+				<ul>
+					<li>This module is about exploration and trying things out. Don't be afraid to make mistakes and learn from them.</li>
+					<li>On one planet, travelling to another specific planet will take you to the sixth location.</li>
+					<li>Some interactions will change the color of the timer, or will incur a strike.</li>
+					<li>To solve the module, you must end the twenty-two second timer at the sixth location with a specific timer color.</li>
+					<li>Traveling to the sun or away from the sixth location will incur a strike.</li>
+				</ul>
             </div>
-            <div class="page-footer relative-footer">Page 2 of 3</div>
-        </div>
-        <div class="page page-bg-03">
-            <div class="page-header">
-                <span class="page-header-doc-title">Keep Talking and Nobody Explodes Mod</span>
-                <span class="page-header-section-title">Appendix Name</span>
-            </div>
-            <div class="page-content">
-                <h2>Appendix M: Additional Notes</h2>
-                <p>Here other things to keep in mind when making a manual page:</p>
-                <ul>
-                    <li><strong>There are comments <code>/* ... */</code> in the CSS code in the <code>&lt;style&gt;</code> blocks containing instructions. Follow those instructions before finishing your manual.</strong></li>
-                    <li>Normal and Needy module manual pages are formatted similarly. Widget manual pages are appendices and are formatted as such.</li>
-                    <li>Each manual or appendix page should have a <code>&lt;div class="page-footer...</code> at the bottom of the page, updated accordingly.</li>
-                    <li>Don't be afraid to ask for help if needed!</li>
-                    <li>
-                        A few things to reiterate:
-                        <ul>
-                            <li>Make sure to never forget closing tags (the ones with a <code>/</code> in them).</li>
-                            <li>For the most part, HTML versions of bolding and underlining is recommended.</li>
-                            <li>Italics are not used in vanilla manuals besides flavor text and references to appendices, and therefore is not included above. </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <div class="page-footer relative-footer">Page 3 of 3</div>
+            <div class="page-footer relative-footer">Page 2 of 2</div>
         </div>
     </div>
 </body>

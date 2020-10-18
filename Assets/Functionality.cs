@@ -6,6 +6,8 @@ using System.Linq;
 using Newtonsoft.Json;
 using Nomai;
 
+//Nobody is allowed to fix this code!!!
+
 public class Functionality : MonoBehaviour {
 
     public KMAudio Audio;
@@ -603,9 +605,9 @@ public class Functionality : MonoBehaviour {
         if (_isDeact && barColor == goalColor)
         {
             _isSolved = true;
+            Debug.LogFormat("[Nomai #{0}] Real solve! Congratulations!", _moduleId);
             FakeStatusLight.HandlePass();
             StopAllCoroutines();
-            Debug.LogFormat("[Nomai #{0}] Real solve! Congratulations!", _moduleId);
             return;
         }
 
@@ -661,7 +663,7 @@ public class Functionality : MonoBehaviour {
                 timeEventsTimes.Add((float)timeRatio);
             }
 
-            Debug.LogFormat("[Nomai #{0}] Swpping planets {1} and 5(main).", _moduleId, id);
+            Debug.LogFormat("[Nomai #{0}] Swapping planets {1} and 5(main).", _moduleId, id);
         }
 
         if (planetActions[planetsOrder[5]][planetsOrder[id]] == 2 && normal)

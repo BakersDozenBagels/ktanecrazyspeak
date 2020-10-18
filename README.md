@@ -6,4 +6,4 @@ Status light code from Double-Oh by Timwi
 
 Inspired by the wonderful game Outer Wilds (Go play it!)
 
-Thank you to my testers GhostSalt and RazorBlade
+Thank you to my testers GhostSalt, RazorBlade, and Jakob

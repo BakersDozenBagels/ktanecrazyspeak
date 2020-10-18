@@ -1381,8 +1381,15 @@ MonoBehaviour:
   lightButton: {fileID: 114115072133598702}
   mainButton: {fileID: 114528632979947730}
   mainButtonRenderer: {fileID: 23355270674781388}
+  barMats:
+  - {fileID: 2100000, guid: df99a7ecc8121c1418f841224473dc81, type: 2}
+  - {fileID: 2100000, guid: f331135586fcde54a8c873fa9189458f, type: 2}
+  - {fileID: 2100000, guid: 47538ef67d3d6ee428e6978dc748faf4, type: 2}
+  - {fileID: 2100000, guid: 3dbc31c014075404ab2045799ccee3e5, type: 2}
   barControl: {fileID: 1616063085334286}
   bar: {fileID: 23812004997719492}
+  FakeStatusLight: {fileID: 114196931376684830, guid: d3d4cd8715f177c479c4788b6a4f51e2,
+    type: 2}
 --- !u!114 &114212572506945530
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1596,7 +1603,7 @@ MonoBehaviour:
   - {fileID: 23689411800454010}
   - {fileID: 23787614118758918}
   - {fileID: 23359825121870668}
-  rangeMin: 0.5
+  rangeMin: 0.1
   rangeMax: 2
 --- !u!114 &114613924560449188
 MonoBehaviour:

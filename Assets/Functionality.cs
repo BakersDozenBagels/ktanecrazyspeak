@@ -123,13 +123,13 @@ public class Functionality : MonoBehaviour {
     {
         //Randomize order of ordered
         int[] ordered = { 6, 2, 3, 4, 5, 1 };
-       /* for (int i = 5; i > 0; i--)
+        for (int i = 5; i > 0; i--)
         {
             int j = Random.Range(0, i + 1);
             int tmp = ordered[i];
             ordered[i] = ordered[j];
             ordered[j] = tmp;
-        }*/
+        }
 
         //Insert a sun
         int rng = Random.Range(0, 5);

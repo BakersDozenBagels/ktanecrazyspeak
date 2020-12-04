@@ -11,23 +11,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 615501dbe4f3fe94fbf4b564abb10237, type: 3}
   m_Name: ModConfig
   m_EditorClassIdentifier: 
-  id: nomai
-  title: Nomai
+  id: simpsquad
+  title: SimpSquad
   author: BakersDozenBagels
-  description: 'Time travel? On my bomb?
+  description: 'A module.
 
 
-    Regular module based on the excellent game Outer Wilds. (Go play it!)
+    And a pretty bad one, at that.
 
 
-    Module id: nomai
-
-    Source code: https://github.com/BakersDozenBagels/KTaNENomai
-
-    Manual link: Coming soon
+    Manual will be on the repo.
 
 
-    Actually good visuals: Maybe at some point'
+    Module id: simpsquad'
   version: 0.1
   outputFolder: build
-  previewImage: {fileID: 2800000, guid: 4f6d10f1fe300b94497c07c43d1bf3ce, type: 3}
+  previewImage: {fileID: 2800000, guid: 86f6b93aef7c3244eb0c5163f4d2a61a, type: 3}

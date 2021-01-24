@@ -11,19 +11,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 615501dbe4f3fe94fbf4b564abb10237, type: 3}
   m_Name: ModConfig
   m_EditorClassIdentifier: 
-  id: simpsquad
-  title: SimpSquad
+  id: crazySpeak
+  title: Crazy Speak
   author: BakersDozenBagels
-  description: 'A module.
+  description: 'A needy module.
 
 
-    And a pretty bad one, at that.
+    Just say what''s on the screen into your microphone. Sounds easy, right? ||:P||
 
 
-    Manual will be on the repo.
-
-
-    Module id: simpsquad'
-  version: 0.1
+    Module id: crazySpeak'
+  version: 1.0
   outputFolder: build
-  previewImage: {fileID: 2800000, guid: 86f6b93aef7c3244eb0c5163f4d2a61a, type: 3}
+  previewImage: {fileID: 2800000, guid: 4ded8de63ddbf9346a1db83873f708dc, type: 3}
